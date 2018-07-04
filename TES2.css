@@ -4,31 +4,75 @@
     margin: 0;
     padding: 0;
   }
-  .header, .footer 
-  {
-  width: 100%; 
-  height: 100px; 
-  text-align: center;
-  line-height: 100px;
-  background-color: rgb(173, 173, 173)
+  img {
+    border: 0;
+  }
+  #header .headpic {
+  float: left;
+  padding-right: 20px;
+  }
+  #header {
+    background-color: #eee;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 27px 0;
+  }
+  #header > div, #footer > div {
+    width: 920px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  #nav {
+    display: inline-block;
+    list-style: none;
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+  }
+  #nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #nav li {
+    float: left;
+    width: 160px;
+    text-align: center;
+  }
+  #nav li a {
+    color: #818181;
+    font-size: 15px;
+    line-height: 30px;
+    text-decoration: none;
   }
   .content { 
     margin: 0 auto;
     max-width: 100%;
     font-size: 0; 
+    height: 1080px; 
+    line-height: 1080px;
   }
-  .content .left, .content .center, .content .right { 
+  .box { 
      display: inline-block;
      font-size: 16px; 
-     height: 550px; 
-     line-height: 550px;
+     margin-right:10px;
+     margin-bottom:10px;
+     width: 450px;
+     height: 550px;
+     padding-left: 20px;
      text-align:center;
   }
-  .content .left, .content .right 
-  { 
-    width: 20%; 
+  .foot {
+    background-color: #eee;
+    border-top: 1px solid #d8d8d8;
+    padding: 30px 0;
   }
-  .content .center 
-  { 
-    width: 60%;
-  }  
+  .foot p {
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  #fflogo {
+    float: right;
+    padding-right: 30px;
+  }
