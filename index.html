@@ -4,16 +4,6 @@
   <title>CSS 測試</title>
   <meta charset="utf-8">
   <link href="TES2.css" type="text/css" rel="stylesheet" />
-  <style>
-      #logo {
-        height: 80px;
-        width: 95px;
-      }
-      #flogo {
-        height: 35px;
-        width: 170px;
-      }
-  </style>
 </head>
 <body>
 <div id="header">
@@ -40,16 +30,22 @@
 			</ul>
 		</div>
 </div>
-<div>
-    <div class="contentup">
+<div class="contentup">
+    <div class="clearfix">
+            <img id="toybox" src="TOY_BOX.png" alt="Img" height="342" width="368">
         <div>
-            Left
-        </div>
-        <div>
-            Right
+                <h1>Ideas?</h1>
+				<h2>That's what we live for.</h2>
+            <p>
+                Wix is an online website builder with a simple drag & drop interface, meaning you do the work online and instantly publish to the web.
+				<span>
+					<img id="try" src="TRY_IT_NOW.png" href="index.html"/ ><b>Don’t worry it’s for free</b>
+				</span>
+            </p>
         </div>
     </div>
-    <div class="contentdown">
+<div class="contentdown">
+    <div class="content">
         <div>
             LeftDown
         </div>
@@ -57,11 +53,15 @@
             RightDown
         </div>
     </div>
-    <div class="foot">
-        <p> 2523 Miseriah. All right reserved.</p>
-    <div id="fflogo">
-        <img id="flogo" src="CONTACT_BUTTON.png" href="javascript ;"/ >
-    </div>
+</div>
+<div id="foot">
+    <div class="clearfix">
+        <div id="fflogo">
+        <img id="flogo" src="CONTACT_BUTTON.png"/ >
+        </div>
+    <p>
+        2523 Miseriah. All right reserved.
+    </p>
     </div>
 </div>
 </body>
